@@ -1,0 +1,84 @@
+/* Base body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8dceb;
+    color: #5e5473;
+}
+
+/* Header Styling */
+header {
+    background-color: #e0bbe4;
+    padding: 20px;
+    text-align: center;
+    color: #5e5473;
+    border-bottom: 3px solid #f3c5d5;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+input, button {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 2px solid #e0bbe4;
+    outline: none;
+    font-size: 1rem;
+}
+
+input {
+    width: 250px;
+    background-color: #f3c5d5;
+    color: #5e5473;
+}
+
+button {
+    background-color: #d291bc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #b279a7;
+    transform: scale(1.05);
+}
+
+
+#country-info, #bordering-countries {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f3c5d5;
+    border-radius: 10px;
+    border: 1px solid #d291bc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h2, h3 {
+    color: #b279a7;
+    margin-bottom: 10px;
+}
+
+
+p {
+    margin: 5px 0;
+}
+
